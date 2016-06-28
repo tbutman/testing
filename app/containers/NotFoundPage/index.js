@@ -14,7 +14,7 @@ import H1 from 'components/H1';
 export function NotFound(props) {
   return (
     <article>
-      <H1>Page not found.</H1>
+      <H1>Page not found...</H1>
       <Button
         handleRoute={function redirect() {
           props.changeRoute('/');
